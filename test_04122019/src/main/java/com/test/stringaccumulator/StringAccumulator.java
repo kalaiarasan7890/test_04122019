@@ -3,13 +3,6 @@ package com.test.stringaccumulator;
 import java.util.*;
 
 public class StringAccumulator {
-    public static void main(String[] args) {
-        StringAccumulator stringAccumulator = new StringAccumulator();
-        //System.out.println("Total count :"+add("//*|%\\n1*2%3"));
-        //System.out.println("Total count :"+add("1\n2,3"));
-        System.out.println("Total count :"+stringAccumulator.add("//***|@@@@@\\n1***2@@@@@-3"));
-        System.out.println("Negative numbers:" +stringAccumulator.negativeNumbers);
-    }
 
     private int count = 0;
     public List<Integer> negativeNumbers = new ArrayList();
